@@ -1,0 +1,252 @@
+body {
+  padding: 0em  !important; 
+}
+/* No decoration */
+
+.noDeco { text-decoration: none !important;}
+.bd     {border:1px solid black ;}
+.bd-radius     {border-radius:15px ;}
+.custom-border {
+  border-bottom:0.5px solid rgba(0,0,255,0.25);
+  /* border-left:0.5px solid black;
+  border-right:0.5px solid black; */
+}
+
+/* @media */
+.bg-pic {
+  background-image:url('../img/bg10.jpg');
+  background-position: center ;
+   background-size: cover;
+}
+
+
+/* @media only screen and (min-width: 700px) {
+.first-div {
+background-image:url('../img/new/5.jpg');
+background-position: center ;
+background-attachment: fixed;
+background-size: cover;
+width: 100%;
+}
+} */
+/* color */
+.color-blue{
+  color: #1877B7 !important;
+}
+.color-vue {
+  color: #f8fafc !important;
+}
+.color-one{
+  color: #e8e8e8 !important;
+}
+.color-two{
+  color: #5588a3 !important;
+}
+.color-three{
+  color: #145374 !important;
+}
+.color-four{
+  color: #00334e !important;
+}
+
+.color-five{
+  color:   #D93323 !important;
+}
+.parent-div   {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* background */
+.bg-vue{
+  background: #f8fafc !important;
+}
+.bg-one{
+  background: #e8e8e8 !important;
+}
+.bg-two{
+  background: #5588a3 !important;
+}
+.bg-three{
+  background: #145374 !important;
+}
+.bg-four{
+  background: #00334e !important;
+}
+.bg-five{
+  background: #D93323 !important;
+}
+.bg-blue{
+  background : #1877B7 !important;
+}
+.BG-dark:hover{
+  background: hsl(0, 0%, 21%) !important;
+}
+
+/* hover */
+
+.hover-color-one:hover{
+  color: #e8e8e8 !important;
+}
+
+.hover-color-two:hover{
+  color: #5588a3 !important;
+}
+
+.hover-color-three:hover{
+  color: #145374 !important;
+}
+
+.hover-color-four:hover{
+  color: #00334e !important;
+}
+
+.hover-bg-one:hover{
+  background: #e8e8e8 !important;
+}
+
+.hover-bg-two:hover{
+  background: #5588a3 !important;
+}
+
+.hover-bg-three:hover{
+  background: #145374 !important;
+}
+
+.hover-bg-four:hover{
+  background: #00334e !important;
+}
+
+.hover-bg-white:hover {
+  background: #fff !important;
+}
+
+/* bg-tr */
+.bg-trans{
+  background-color: transparent;
+
+}
+
+/* pictures */
+
+.scroll-downs {
+  position: absolute;
+  top: 80vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+/*
+.mouse {
+width: 100px;
+display: inline-block;
+position: absolute;
+left: 50%;
+bottom: 20px;
+z-index: 1;
+-webkit-transform: translateX(-25%);
+-ms-transform: translateX(-25%);
+transform: translateX(-25%); }
+
+.mouse-icon {
+width: 25px;
+height: 45px;
+border: 2px solid white;
+border-radius: 15px;
+cursor: pointer;
+position: relative;
+text-align: center; }
+
+.mouse-wheel {
+height: 6px;
+margin: 2px auto 0;
+display: block;
+width: 3px;
+background-color: white;
+border-radius: 50%;
+-webkit-animation: 1.6s ease infinite wheel-up-down;
+-moz-animation: 1.6s ease infinite wheel-up-down;
+animation: 1.6s ease infinite wheel-up-down; }
+
+@-webkit-keyframes wheel-up-down {
+0% {
+margin-top: 2px;
+opacity: 0; }
+30% {
+opacity: 1; }
+100% {
+margin-top: 20px;
+opacity: 0; } }
+
+@-moz-keyframes wheel-up-down {
+0% {
+margin-top: 2px;
+opacity: 0; }
+30% {
+opacity: 1; }
+100% {
+margin-top: 20px;
+opacity: 0; } }
+
+@keyframes wheel-up-down {
+0% {
+margin-top: 2px;
+opacity: 0; }
+30% {
+opacity: 1; }
+100% {
+margin-top: 20px;
+opacity: 0; } }
+*/
+
+
+/* Login */
+
+.LoginBox{
+  position: relative;
+
+  left: 25%;
+  width: 50%;
+  height: 40vh;
+  /* top: 16vh; */
+}
+
+/* center */
+
+.parent-div   {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Table */
